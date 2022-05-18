@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/employee_photo_url_small"
+        android:layout_width="@dimen/min_img_size"
+        android:layout_height="@dimen/min_img_size"
+        android:paddingRight="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/employee_full_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@id/employee_photo_url_small"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/lorem_ipsum_short" />
+
+    <TextView
+        android:id="@+id/employee_team"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:textAppearance="?attr/textAppearanceSubtitle1"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/employee_photo_url_small"
+        app:layout_constraintTop_toBottomOf="@id/employee_full_name"
+        tools:text="Some stuff" />
+
+    <TextView
+        android:id="@+id/employee_biography"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:textAppearance="?attr/textAppearanceBody2"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/employee_photo_url_small"
+        app:layout_constraintTop_toBottomOf="@id/employee_team"
+        tools:text="@string/lorem_ipsum_long" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

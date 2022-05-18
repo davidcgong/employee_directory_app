@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/employee_malformed_img"
+        android:layout_width="@dimen/min_img_size"
+        android:layout_height="@dimen/min_img_size"
+        android:src="@android:drawable/ic_delete" />
+
+    <TextView
+        android:id="@+id/employee_malformed_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/malformed_employees_text" />
+
+    <Button
+        android:id="@+id/employee_malformed_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/refetch_network_call" />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">block_take_home_project</string>
+    <!-- Common strings -->
+    <string name="loading_text">Loading</string>
+    <string name="refetch_network_call">Try again</string>
+
+    <!-- Employee strings -->
+    <string name="loading_employees">Loading employees</string>
+    <string name="empty_employees_text">We could not find any employees</string>
+    <string name="malformed_employees_text">Malformed API response</string>
+
+    <!-- Tool strings (USE FOR TESTING ONLY) -->
+    <string name="lorem_ipsum_short">Lorem Ipsum is simply dummy text of the printing</string>
+    <string name="lorem_ipsum_long">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+</resources>
